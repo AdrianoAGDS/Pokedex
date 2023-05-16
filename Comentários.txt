@@ -1,0 +1,89 @@
+Instalação inicial
+
+ npm install -g http-server
+
+ http-server para iniciar
+
+ touch index.html - Criar o html pelo cmd  e ctrl p para acessar 
+
+ link criar o css mais rapido "link:css"
+
+adicionar o narmalize para resetar o css
+
+ - Criar pastas
+ mkdir assets
+ mkdir assets/css
+ mkdir assets/js
+ 
+- Criar os arquivos
+touch ./assets/css/global.css
+touch ./assets/js/main.js
+
+Atalhos uteis
+
+Ctrl + P (Arquivos entrar)
+
+Ctrl + D (Para selecionar mais de um)
+
+Ctrl + F (Pesquisar)
+
+Ctrl + L (Selecionar linhas)
+
+Alt + Seta (Para movimentar texto)
+
+Ctrl + K, Ctrl + C (Comentar texto)
+
+Ctrl + K, Ctrl + U (tirar comentario)
+
+Primeiro o estilo é para mobile
+
+Fonte do tipo rem, técnicas de css
+
+Trabalhando o CSS Responsivo do menor e configurar para os maiores.
+
+Introdução de API's e como funciona
+
+Requisição http
+
+URL: https://pokeapi.co/api/v2/pokemon
+${ip (endereço)}/${path = caminho de identificação do recurso}
+
+IP: https://pokeapi.co
+http://127.0.0.1/3000
+
+Path e Query String são passado na URL
+
+Request Method:   GET   |   POST  |    PUT    | DELETE | PATCH
+                 Buscar | Inserir | Atualizar | Apagar |  
+
+Request Headers 
+    Configuração da Requisição
+    Authorization
+    accept-language:
+    pt-BR
+
+Response Headers
+    Configuração da Resposta
+
+Status Code (Se deu certo ou se tem algum erro)
+
+Transmitir coisas para o servidor e receber coisas do servidor 
+Reponse Headers(25) e Request  Headers (Meta Dados para descrever a requisição (configurações))
+
+Body (Corpo da requisição e trabalha com o Post)
+
+O dado recebido
+
+Post trabalha mais com Get ao inserir dados
+
+
+Processamento assincrono é um processamento que vai ser executado e em paralelo, mas que não tenho
+a resposta de imediato e em algum momento vou ter. A promessa de um resultado. fetch
+
+Requisição com Promise
+
+Encadeamento de thens, segundo then vai o retorno do primeiro.
+
+Diminuindo a complexidade com as arrowfunction (funções anonimas) é a sintaxa reduzida de uma função.
+
+debugger (vai ser a parada no dev tools)
